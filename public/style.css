@@ -57,3 +57,16 @@ code {
   background-color: #FFFEC4;
   padding: 2px;
 }
+
+.me:hover::after{
+  content: "ayse sule";
+  color: #ff8da1;
+  position: relative;
+  left: -25px;
+}
+
+.me:hover { 
+  width: 0;
+  color: transparent;
+}
+
